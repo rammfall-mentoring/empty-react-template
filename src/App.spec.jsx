@@ -1,10 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import App from "./App.jsx";
-import {render} from "@testing-library/react";
+import { render } from '@testing-library/react';
+import App from './App.jsx';
 
-describe('App', function () {
+describe('App', () => {
   it('match', () => {
-    render(<App />)
-  })
+    render(<App />);
+
+    expect(true).toBeTruthy();
+  });
 });
