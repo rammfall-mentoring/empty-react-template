@@ -8,5 +8,6 @@ describe('App', () => {
     render(<App />);
 
     expect(true).toBeTruthy();
+    expect(false).toBeTruthy();
   });
 });
